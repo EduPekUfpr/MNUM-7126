@@ -1,0 +1,32 @@
+# abstract2.dat AMPL data format
+
+set I := C1 C2;
+set J := I1 I2 I3 I4 I5 I6;
+
+param a :=
+C1 I1 1
+C1 I2 2
+C1 I3 3
+C1 I4 1
+C1 I5 3
+C1 I6 0
+C2 I1 0
+C2 I2 1
+C2 I3 2
+C2 I4 1
+C2 I5 0
+C2 I6 1
+;
+
+param custo := [*]
+I1 2
+I2 3
+I3 1
+I4 4
+I5 1
+I6 1
+;
+
+param b := 
+C1 8
+C2 3;
